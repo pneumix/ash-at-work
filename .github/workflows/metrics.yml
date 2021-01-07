@@ -56,7 +56,7 @@ jobs:
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_skipped: lowlighter
           plugins_errors_fatal: yes
-          config_timezone: Europe/Paris
+          config_timezone: Europe/London
           
       - name: Personal metrics (additional)
         uses: lowlighter/metrics@latest
@@ -80,7 +80,7 @@ jobs:
           plugin_projects: yes
           plugin_projects_repositories: lowlighter/metrics/projects/1
           plugin_projects_limit: 0
-          config_timezone: Europe/Paris
+          config_timezone: Europe/London
 
 # The job below generates the examples displayed on lowlighter/metrics
 # You can use these steps to render plugins as standalone or to understand how each of them works
@@ -106,7 +106,7 @@ jobs:
           base: "header, repositories"
           plugin_lines: yes
           plugins_errors_fatal: yes
-          config_timezone: Europe/Paris
+          config_timezone: Europe/London
           use_prebuilt_image: master
 
       # Terminal template with header and metadata sections
@@ -119,7 +119,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: "header, metadata"
           plugins_errors_fatal: yes
-          config_timezone: Europe/Paris
+          config_timezone: Europe/London
           use_prebuilt_image: master
 
       # Repository template
