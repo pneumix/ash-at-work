@@ -1,4 +1,4 @@
-![Metrics](https://github.com/ash-at-work/ash-at-work/master/github-metrics.svg)
+![Metrics](https://raw.githubusercontent.com/ash-at-work/ash-at-work/main/github-metrics.svg)
 
 
 
