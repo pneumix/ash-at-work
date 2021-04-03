@@ -2369,7 +2369,7 @@
                                             timvisee/send
                                         </span>
                                         <span>
-                                            starred 1 hour ago
+                                            starred 2 hours ago
                                         </span>
                                     </div>
                                 </div>
@@ -2428,7 +2428,7 @@
                                                 jessepollak/command
                                             </span>
                                             <span>
-                                                starred 9 days ago
+                                                starred 10 days ago
                                             </span>
                                         </div>
                                     </div>
@@ -2600,7 +2600,7 @@
                             These metrics include private contributions, timezone Europe/London
                         </span>
                         <span>
-                            Last updated Sat, 03 Apr 2021 08:26:07 GMT with lowlighter/metrics@3.6.0
+                            Last updated Sat, 03 Apr 2021 09:23:38 GMT with lowlighter/metrics@3.6.0
                         </span>
                     </footer>
                     <div id="metrics-end"></div>
