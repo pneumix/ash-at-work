@@ -2566,9 +2566,9 @@
                                     <div class="field infos">
                                         <div class="language">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                <path fill="#0050b2" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                             </svg>
-                                            JavaScript
+                                            FreeMarker
                                         </div>
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -2611,7 +2611,7 @@
                         These metrics include private contributions, timezone Europe/London
                     </span>
                     <span>
-                        Last updated Mon, 12 Apr 2021 12:32:52 GMT with lowlighter/metrics@3.6.0
+                        Last updated Mon, 12 Apr 2021 13:29:25 GMT with lowlighter/metrics@3.6.0
                     </span>
                 </footer>
                 <div id="metrics-end"></div>
