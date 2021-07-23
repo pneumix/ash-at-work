@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1192" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1200" class="">
     <defs>
         <style/>
     </defs>
@@ -39,6 +39,23 @@
     width: 50%;
   }
 
+/* Columns display */
+  svg.columns .items-wrapper{
+    column-count: 2;
+    column-gap: 10px;
+  }
+  svg.columns .items-wrapper&gt;*{
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+  }
+
+  @media (max-width: 850px){
+    svg.columns .items-wrapper{
+      column-count: 1;
+    }
+  }
+
 /* Headers */
   h1, h2, h3 {
     margin: 8px 0 2px;
@@ -59,6 +76,11 @@
   h3 {
     font-size: 14px;
   }
+  .h-details {
+    margin: 0 4px;
+    padding-top: 4px;
+    font-size: 0.8rem;
+  }
 
 /* Fields */
   section &gt; .field {
@@ -70,6 +92,9 @@
     align-items: center;
     margin-bottom: 2px;
     white-space: nowrap;
+  }
+  .field.wrap {
+    flex-wrap: wrap;
   }
   .field svg {
     margin: 0 8px;
@@ -86,6 +111,7 @@
 /* Displays */
   .row {
     display: flex;
+    flex-wrap: wrap;
   }
   .row section {
     flex: 1 1 0;
@@ -208,6 +234,9 @@
   }
   .followup.legend svg:last-child {
     margin-right: 0;
+  }
+  .followup-title{
+    white-space: initial;
   }
 
 /* Labels */
@@ -993,6 +1022,7 @@
     border-radius: 16px;
     font-size: 10px;
     padding: 0 5px;
+    white-space: nowrap;
   }
   .achievement .gauge-base, .achievement .gauge-arc {
     stroke-width: 6;
@@ -1153,7 +1183,7 @@
     caret-color: transparent !important;
   }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
                 <h1 class="field">
                     <img class="avatar" src="data:image/png;base64,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" width="20" height="20" />
@@ -1220,7 +1250,7 @@
             0 Pull requests opened
           </div>
                         <div class="field">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/></svg>
             0 Issues opened
           </div>
                         <div class="field">
@@ -1307,9 +1337,11 @@
             </section>
             <section>
                 <h2 class="field">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/></svg>
-      Overall issues and pull requests status
-    </h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/>
+                    </svg>
+                    <span class="followup-title">Overall issues and pull requests status</span>
+                </h2>
             </section>
             <div class="column largeable">
                 <h3>
@@ -1329,13 +1361,15 @@
                         <div class="followup legend field horizontal fill-width">
                             <div class="field center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#28a745" fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
+                                    <path fill="#28a745" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                                    <path fill="#28a745" fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
                                 </svg>
                                 <span class="no-wrap">0 <small>open</small></span>
                             </div>
                             <div class="field center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#d73a49" fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 0110.65-5.003.75.75 0 00.959-1.153 8 8 0 102.592 8.33.75.75 0 10-1.444-.407A6.5 6.5 0 011.5 8zM8 12a1 1 0 100-2 1 1 0 000 2zm0-8a.75.75 0 01.75.75v3.5a.75.75 0 11-1.5 0v-3.5A.75.75 0 018 4zm4.78 4.28l3-3a.75.75 0 00-1.06-1.06l-2.47 2.47-.97-.97a.749.749 0 10-1.06 1.06l1.5 1.5a.75.75 0 001.06 0z"/>
+                                    <path fill="#d73a49" d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                    <path fill="#d73a49" fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
                                 </svg>
                                 <span class="no-wrap">0 <small>closed</small></span>
                             </div>
@@ -1425,9 +1459,10 @@
                 </div>
             </section>
             <section>
-                <h2 class="field">
+                <h2 class="field wrap">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/></svg>
       Recent coding habits
+      
     </h2>
                 <div class="row">
                     <ul class="habits">
@@ -2444,7 +2479,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>Legion2/CorsairLightingProtocol</span>
-                                        <span>starred 10 hours ago</span>
+                                        <span>starred 11 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -2468,7 +2503,7 @@
                     39
                   </div>
                                     <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/></svg>
                     143
                   </div>
                                     <div>
@@ -2510,7 +2545,7 @@
                     6
                   </div>
                                     <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/></svg>
                     88
                   </div>
                                     <div>
@@ -2552,7 +2587,7 @@
                     188
                   </div>
                                     <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/></svg>
                     100
                   </div>
                                     <div>
@@ -2594,7 +2629,7 @@
                     15
                   </div>
                                     <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/></svg>
                     29
                   </div>
                                     <div>
@@ -2609,9 +2644,9 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated Fri, 23 Jul 2021 14:25:48 (timezone Europe/London) with lowlighter/metrics@3.10.0</span>
+                <span>Last updated 23/07/2021, 15:19 (timezone Europe/London) with lowlighter/metrics@3.11.0</span>
             </footer>
-            <div id="metrics-end"></div>
         </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
