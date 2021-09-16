@@ -2564,6 +2564,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,NaN 0,NaN z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,NaN 1.7,NaN z"/>
                             </g>
+                            <g transform="translate(-6.8, NaN)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,NaN 0,NaN z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,NaN 1.7,NaN z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2583,7 +2588,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>BetterDiscord/BetterDiscord</span>
-                                        <span>starred 1 hour ago</span>
+                                        <span>starred 3 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -2625,7 +2630,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>garywill/linux-router</span>
-                                        <span>starred 23 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -2743,7 +2748,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 16/09/2021, 00:18 (timezone Europe/London) with lowlighter/metrics@3.13.0</span>
+                <span>Last updated 16/09/2021, 02:03 (timezone Europe/London) with lowlighter/metrics@3.13.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
