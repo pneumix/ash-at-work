@@ -1466,7 +1466,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>mattbierner/headshot</span>
-                                        <span>starred 20 hours ago</span>
+                                        <span>starred 21 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Sample iOS AR app that demonstrates how to capture the texture of a user's face in realtime</div>
@@ -1513,7 +1513,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ynagatomo/ARQLSanta</span>
-                                        <span>starred 20 hours ago</span>
+                                        <span>starred 21 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A minimal iOS AR app that uses AR Quick Look API.</div>
@@ -1610,7 +1610,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Jan 2022, 02:31:55 (timezone Europe/London) with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 22 Jan 2022, 03:18:34 (timezone Europe/London) with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
