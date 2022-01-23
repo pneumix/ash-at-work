@@ -1418,7 +1418,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>BlackLight/platypush</span>
-                                        <span>starred 6 hours ago</span>
+                                        <span>starred 7 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A versatile and extensible platform for home and life automation with hundreds of supported integrations</div>
@@ -1471,7 +1471,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>jareware/chilipie-kiosk</span>
-                                        <span>starred 6 hours ago</span>
+                                        <span>starred 7 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Easy-to-use Raspberry Pi image for booting directly into full-screen Chrome, with built-in convenience features for unattended operation. Perfect for dashboards and build monitors.</div>
@@ -1571,7 +1571,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>mdhiggins/sickbeard_mp4_automator</span>
-                                        <span>starred 17 hours ago</span>
+                                        <span>starred 18 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Automatically convert video files to a standardized format with metadata tagging to create a beautiful and uniform media library</div>
@@ -1621,7 +1621,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Jan 2022, 02:30:28 (timezone Europe/London) with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 23 Jan 2022, 03:19:22 (timezone Europe/London) with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
