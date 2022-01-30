@@ -1518,7 +1518,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>will8211/unimatrix</span>
-                                        <span>starred 5 days ago</span>
+                                        <span>starred 6 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Python script to simulate the display from "The Matrix" in terminal. Uses half-width katakana unicode characters by default, but can use custom character sets. Accepts keyboard controls while running. Based on CMatrix.</div>
@@ -1621,7 +1621,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 30 Jan 2022, 13:18:49 (timezone Europe/London) with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 30 Jan 2022, 14:16:30 (timezone Europe/London) with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
