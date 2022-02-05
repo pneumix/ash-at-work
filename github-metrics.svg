@@ -1413,7 +1413,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>njh/silentjack</span>
-                                        <span>starred 2 days ago</span>
+                                        <span>starred 3 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">SilentJack is a silence/dead air detector for the Jack Audio Connection Kit.</div>
@@ -1622,7 +1622,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 5 Feb 2022, 01:41:20 (timezone Europe/London) with lowlighter/metrics@3.19.0</span>
+                <span>Last updated 5 Feb 2022, 02:18:20 (timezone Europe/London) with lowlighter/metrics@3.19.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
