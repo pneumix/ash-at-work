@@ -1413,7 +1413,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>UnchartedBull/OctoDash</span>
-                                        <span>starred 11 hours ago</span>
+                                        <span>starred 12 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">OctoDash is a simple, but beautiful dashboard for OctoPrint.</div>
@@ -1466,7 +1466,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>badaix/snapcast</span>
-                                        <span>starred 21 hours ago</span>
+                                        <span>starred 22 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Synchronous multiroom audio player</div>
@@ -1616,7 +1616,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 12 Feb 2022, 20:18:54 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 12 Feb 2022, 21:15:00 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
