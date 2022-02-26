@@ -1413,7 +1413,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>MWisBest/StadiEm</span>
-                                        <span>starred 6 hours ago</span>
+                                        <span>starred 7 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Allows Stadia Controllers to emulate 360 and DS4 controllers on PC.</div>
@@ -1460,7 +1460,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>werman/noise-suppression-for-voice</span>
-                                        <span>starred 11 hours ago</span>
+                                        <span>starred 12 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Noise suppression plugin based on Xiph's RNNoise</div>
@@ -1610,7 +1610,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Feb 2022, 19:14:49 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 26 Feb 2022, 20:19:06 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
