@@ -1418,7 +1418,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>MWisBest/StadiEm</span>
-                                        <span>starred 23 hours ago</span>
+                                        <span>starred 24 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Allows Stadia Controllers to emulate 360 and DS4 controllers on PC.</div>
@@ -1615,7 +1615,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 27 Feb 2022, 12:29:44 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 27 Feb 2022, 13:20:44 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
