@@ -1418,7 +1418,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>MWisBest/StadiEm</span>
-                                        <span>starred 19 hours ago</span>
+                                        <span>starred 20 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Allows Stadia Controllers to emulate 360 and DS4 controllers on PC.</div>
@@ -1465,7 +1465,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>werman/noise-suppression-for-voice</span>
-                                        <span>starred 24 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Noise suppression plugin based on Xiph's RNNoise</div>
@@ -1518,7 +1518,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>derrod/legendary</span>
-                                        <span>starred 2 days ago</span>
+                                        <span>starred 3 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Legendary - A free and open-source replacement for the Epic Games Launcher</div>
@@ -1615,7 +1615,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 27 Feb 2022, 08:21:52 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 27 Feb 2022, 09:18:00 (timezone Europe/London) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
