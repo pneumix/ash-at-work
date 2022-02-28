@@ -1425,7 +1425,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>flightlessmango/MangoHud</span>
-                                        <span>starred 1 hour ago</span>
+                                        <span>starred 2 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. Discord: https://discordapp.com/invite/Gj5YmBb</div>
@@ -1478,7 +1478,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>EnvelopSound/EnvelopForLive</span>
-                                        <span>starred 10 hours ago</span>
+                                        <span>starred 11 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Free, open-source tools for Ambisonic 3D panning within Max for Live 10+</div>
@@ -1628,7 +1628,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 28 Feb 2022, 16:29:31 (timezone Europe/London) with lowlighter/metrics@3.21.0</span>
+                <span>Last updated 28 Feb 2022, 17:20:18 (timezone Europe/London) with lowlighter/metrics@3.21.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
