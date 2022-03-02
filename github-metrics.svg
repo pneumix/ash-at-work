@@ -1588,7 +1588,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>werman/noise-suppression-for-voice</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Noise suppression plugin based on Xiph's RNNoise</div>
@@ -1638,7 +1638,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 2 Mar 2022, 08:23:34 (timezone Europe/London) with lowlighter/metrics@3.21.0</span>
+                <span>Last updated 2 Mar 2022, 09:18:36 (timezone Europe/London) with lowlighter/metrics@3.21.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
